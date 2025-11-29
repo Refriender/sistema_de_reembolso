@@ -1,0 +1,1 @@
+export { SolicitaoEnviada } from "./SolicitaoEnviada";

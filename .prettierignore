@@ -1,0 +1,15 @@
+# Ignore artifacts
+dist
+dev-dist
+node_modules
+coverage
+
+# Ignore lock files
+package-lock.json
+
+# Ignore build outputs
+*.min.js
+*.min.css
+
+# Ignore generated files
+*.d.ts

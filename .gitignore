@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependências
+node_modules
+
+# Build de produção
+dist
+dist-ssr
+
+# PWA dev build
+dev-dist
+
+# Arquivos locais/temporários
+*.local
+.env
+.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache
+*.tsbuildinfo
+
+# Cobertura de testes
+coverage
