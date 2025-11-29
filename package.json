@@ -4,6 +4,9 @@
   "type": "module",
   "name": "refund",
   "description": "Sistema de Reembolso Corporativo",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

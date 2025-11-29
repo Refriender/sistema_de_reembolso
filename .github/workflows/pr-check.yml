@@ -27,7 +27,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: ['18', '20', '22']
+        # Node 18 removido - jsdom@27 requer Node 20+
+        node-version: ['20', '22']
 
     steps:
       - name: 📥 Checkout repository
