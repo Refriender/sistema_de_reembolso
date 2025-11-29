@@ -5,15 +5,7 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
-    },
-    {
-      "source": "/((?!assets|.*\\..*|_next).*)",
+      "source": "/((?!robots\\.txt|sitemap\\.xml|assets|.*\\..*).*)",
       "destination": "/index.html"
     }
   ],
@@ -24,6 +16,10 @@
         {
           "key": "Content-Type",
           "value": "text/plain"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
         }
       ]
     },
@@ -33,6 +29,10 @@
         {
           "key": "Content-Type",
           "value": "application/xml"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
         }
       ]
     }
