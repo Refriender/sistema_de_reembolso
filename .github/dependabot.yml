@@ -50,6 +50,9 @@ updates:
           - "react"
           - "react-dom"
           - "@types/react*"
+        update-types:
+          - "minor"
+          - "patch"
       
       vite:
         patterns:
