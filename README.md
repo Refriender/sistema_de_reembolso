@@ -4,15 +4,15 @@ Um sistema completo e responsivo para gerenciamento de solicitações de reembol
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF)
-![React](https://img.shields.io/badge/React-18.2-blue)
+![React](https://img.shields.io/badge/React-19.2-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
-![Vite](https://img.shields.io/badge/Vite-6.0.4-purple)
+![Vite](https://img.shields.io/badge/Vite-6.4.1-purple)
 ![PWA](https://img.shields.io/badge/PWA-Ready-orange)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.16-38B2AC)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.18-38B2AC)
 ![Vitest](https://img.shields.io/badge/Vitest-3.2.4-6E9F18)
 ![Tests](https://img.shields.io/badge/Tests-52%20passing-brightgreen)
 ![ESLint](https://img.shields.io/badge/ESLint-9.39.1-4B32C3)
-![Prettier](https://img.shields.io/badge/Prettier-3.7.2-F7B93E)
+![Prettier](https://img.shields.io/badge/Prettier-3.7.4-F7B93E)
 
 ---
 
@@ -71,25 +71,25 @@ Este projeto simula um ambiente real de controle de despesas corporativas, permi
 ### Core
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
-| [React](https://react.dev/) | 18.2.0 | Biblioteca para construção de interfaces |
+| [React](https://react.dev/) | 19.2.1 | Biblioteca para construção de interfaces |
 | [TypeScript](https://www.typescriptlang.org/) | 5.x | Tipagem estática e segurança de código |
-| [Vite](https://vitejs.dev/) | 6.0.4 | Build tool ultra-rápida |
+| [Vite](https://vitejs.dev/) | 6.4.1 | Build tool ultra-rápida |
 
 ### Gerenciamento de Estado e Dados
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
-| [TanStack Query](https://tanstack.com/query/latest) | 5.59.0 | Gerenciamento de estado assíncrono e cache |
-| [React Hook Form](https://react-hook-form.com/) | 7.53.0 | Gerenciamento de formulários performático |
-| [React Router DOM](https://reactrouter.com/) | 6.8.1 | Roteamento declarativo para SPA |
+| [TanStack Query](https://tanstack.com/query/latest) | 5.90.11 | Gerenciamento de estado assíncrono e cache |
+| [React Hook Form](https://react-hook-form.com/) | 7.67.0 | Gerenciamento de formulários performático |
+| [React Router DOM](https://reactrouter.com/) | 6.30.2 | Roteamento declarativo para SPA |
 
 ### Estilização e UI
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
-| [Tailwind CSS](https://tailwindcss.com/) | 3.4.16 | Framework CSS utility-first |
-| [Radix UI](https://www.radix-ui.com/) | 1.x | Primitivos acessíveis (Dialog, Select, Toast, etc.) |
+| [Tailwind CSS](https://tailwindcss.com/) | 3.4.18 | Framework CSS utility-first |
+| [Radix UI](https://www.radix-ui.com/) | 1.x/2.x | Primitivos acessíveis (Dialog, Select, Toast, etc.) |
 | [Framer Motion](https://www.framer.com/motion/) | latest | Animações fluidas e interativas |
-| [Lucide React](https://lucide.dev/) | 0.453.0 | Biblioteca de ícones |
-| [CVA](https://cva.style/) | 0.7.0 | Variantes de componentes |
+| [Lucide React](https://lucide.dev/) | 0.555.0 | Biblioteca de ícones |
+| [CVA](https://cva.style/) | 0.7.1 | Variantes de componentes |
 
 ### PWA e SEO
 | Tecnologia | Versão | Descrição |
@@ -110,8 +110,8 @@ Este projeto simula um ambiente real de controle de despesas corporativas, permi
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
 | [ESLint](https://eslint.org/) | 9.39.1 | Linter para JavaScript/TypeScript |
-| [Prettier](https://prettier.io/) | 3.7.2 | Formatador de código automático |
-| [typescript-eslint](https://typescript-eslint.io/) | 8.48.0 | Regras ESLint para TypeScript |
+| [Prettier](https://prettier.io/) | 3.7.4 | Formatador de código automático |
+| [typescript-eslint](https://typescript-eslint.io/) | 8.48.1 | Regras ESLint para TypeScript |
 | [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) | 7.37.5 | Regras ESLint para React |
 | [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) | 7.0.1 | Regras para React Hooks |
 
@@ -1079,23 +1079,23 @@ Escolhido por ser nativo do Vite:
 ### Produção
 ```json
 {
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "react-router-dom": "^6.8.1",
-  "@tanstack/react-query": "^5.59.0",
-  "react-hook-form": "^7.53.0",
+  "react": "^19.2.1",
+  "react-dom": "^19.2.1",
+  "react-router-dom": "^6.30.2",
+  "@tanstack/react-query": "^5.90.11",
+  "react-hook-form": "^7.67.0",
   "react-helmet-async": "latest",
-  "@radix-ui/react-dialog": "^1.1.2",
-  "@radix-ui/react-select": "^2.1.2",
-  "@radix-ui/react-toast": "^1.2.2",
-  "@radix-ui/react-avatar": "^1.1.1",
-  "@radix-ui/react-label": "^2.1.0",
-  "@radix-ui/react-slot": "^1.1.0",
+  "@radix-ui/react-dialog": "^1.1.15",
+  "@radix-ui/react-select": "^2.2.6",
+  "@radix-ui/react-toast": "^1.2.15",
+  "@radix-ui/react-avatar": "^1.1.11",
+  "@radix-ui/react-label": "^2.1.8",
+  "@radix-ui/react-slot": "^1.2.4",
   "framer-motion": "latest",
-  "lucide-react": "^0.453.0",
-  "class-variance-authority": "^0.7.0",
+  "lucide-react": "^0.555.0",
+  "class-variance-authority": "^0.7.1",
   "clsx": "2.1.1",
-  "tailwind-merge": "2.5.4",
+  "tailwind-merge": "2.6.0",
   "tailwindcss-animate": "1.0.7",
   "vite-plugin-pwa": "latest"
 }
@@ -1104,13 +1104,11 @@ Escolhido por ser nativo do Vite:
 ### Desenvolvimento
 ```json
 {
-  "@vitejs/plugin-react": "4.3.4",
-  "@types/react": "18.2.0",
-  "@types/react-dom": "18.2.0",
+  "@vitejs/plugin-react": "4.7.0",
   "@types/node": "^24.10.1",
-  "vite": "6.0.4",
-  "tailwindcss": "3.4.16",
-  "esbuild": "0.24.0",
+  "vite": "6.4.1",
+  "tailwindcss": "3.4.18",
+  "esbuild": "0.27.0",
   "sharp": "^0.34.5",
   "vitest": "^3.2.4",
   "@vitest/coverage-v8": "^3.2.4",
